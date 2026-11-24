@@ -1,4 +1,4 @@
-# sendafax-ai
+# SendaFax.ai
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,115 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-sendafax-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://sendafax.ai/
+SendaFax.ai provides an API to send faxes programmatically. Users can sign in with Google or email code, upload a document or text, and pay per page only if the fax is successfully delivered. The service offers clear error messages for unsupported destinations, delivers email receipts, and integrates with AI tools like Claude and ChatGPT. Pricing is $1 per page or a discounted $10 for 11 pages, with no default number of pages. The platform emphasizes delivery confirmation before charging.
+
+**Areas:** Fax · API · AI · Payments · Messaging
+
+## SendaFax.ai on APIs.io
+
+Everything profiled for SendaFax.ai is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/sendafax-ai/](https://apis.io/providers/sendafax-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [SendaFax.ai Coverage API](https://apis.io/apis/sendafax-ai/sendafax-ai-coverage-api/) — The Coverage API from SendaFax.ai — 1 operation(s) for coverage.
+- [SendaFax.ai Faxes API](https://apis.io/apis/sendafax-ai/sendafax-ai-faxes-api/) — The Faxes API from SendaFax.ai — 3 operation(s) for faxes.
+- [SendaFax.ai Invoices API](https://apis.io/apis/sendafax-ai/sendafax-ai-invoices-api/) — The Invoices API from SendaFax.ai — 2 operation(s) for invoices.
+- [SendaFax.ai MCP API](https://apis.io/apis/sendafax-ai/sendafax-ai-mcp-api/) — The Mcp API from SendaFax.ai — 1 operation(s) for mcp.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [SendaFax.ai Agentic Access](https://apis.io/agentic-access/sendafax-ai/sendafax-ai-agentic-access/)
+
+#### JSON Schema (1)
+
+The data models the API reads and writes.
+
+- [SendFaxRequest](https://apis.io/schemas/sendafax-ai/sendafax-ai-send-fax-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Sendafax Ai Context](https://apis.io/jsonld/sendafax-ai/sendafax-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [SendaFax.ai API Rules](https://apis.io/rules/sendafax-ai/sendafax-ai-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [SendaFax.ai Authentication](https://apis.io/security/sendafax-ai/sendafax-ai-authentication/)
+- [SendaFax.ai Domain Security](https://apis.io/security/sendafax-ai/sendafax-ai-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://sendafax.ai/)
+- [Privacy policy](https://sendafax.ai/privacy)
+
+## API Evangelist rating
+
+**Kin Score 35.1** — thin · rubric 0.28.0 · scored 2026-11-24
+
+| Facet | Score |
+|---|---|
+| Discoverability | 61.7 |
+| Contract quality | 51.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 18.3 |
+| Access clarity | 19.1 |
+
+**Agent readiness 46.4** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 12.5** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/sendafax-ai/](https://apis.io/providers/sendafax-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for SendaFax.ai: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/sendafax-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
